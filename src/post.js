@@ -1,11 +1,8 @@
-import { useRouteMatch, useParams } from 'react-router-dom';
-
-function Post() {
-  const match = useRouteMatch();
-  const params = useParams();
+function Post(props) {
+  console.log(props);
   return (
     <>
-      <p>Post page - {params.id} </p>
+      <p>Post Page !! </p>
     </>
   );
 }

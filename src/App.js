@@ -8,6 +8,7 @@ import {
 import Home from './home';
 import About from './about';
 import Posts from './posts';
+// import Post from './post';
 import NotFound from './NotFound';
 import Post from './post';
 function App() {
